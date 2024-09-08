@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-mn)z%xfle_w#464u6f50==25#rh7yap-ou5epw(o^y1e3p5c+^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['your-render-app.onrender.com']
-
+ALLOWED_HOSTS = ['my_tennis_club.vercel.app']
 
 
 # Application definition
