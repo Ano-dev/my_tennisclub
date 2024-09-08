@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "my_tennis_club/wsgi.py",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/static/(.*)",
+        "dest": "/productionfiles/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/my_tennis_club/wsgi.py"
+      }
+    ]
+  }
+  
